@@ -16,7 +16,7 @@ public class Login extends SeMethods{
 		type(elePassword, "crmsfa");
 		WebElement eleLogin = locateElement("class","decorativeSubmit");
 		click(eleLogin);
-		System.out.println("");
+		
 	}
 	
 }
