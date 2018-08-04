@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74734" started-at="2018-08-04T05:28:01Z" finished-at="2018-08-04T05:29:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="74734" started-at="2018-08-04T05:28:01Z" finished-at="2018-08-04T05:29:16Z">
+      <class name="week6.day2.testcases.TC004_DeleteLead">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:week6.day2.testcases.TC004_DeleteLead@2ac273d3]" name="startSuite" is-config="true" duration-ms="812" started-at="2018-08-04T05:28:00Z" finished-at="2018-08-04T05:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="SetValues()[pri:0, instance:week6.day2.testcases.TC004_DeleteLead@2ac273d3]" name="SetValues" is-config="true" duration-ms="0" started-at="2018-08-04T05:28:01Z" finished-at="2018-08-04T05:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetValues -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:week6.day2.testcases.TC004_DeleteLead@2ac273d3]" name="startTest" is-config="true" duration-ms="16" started-at="2018-08-04T05:28:01Z" finished-at="2018-08-04T05:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week6.day2.testcases.TC004_DeleteLead@2ac273d3]" name="login" is-config="true" duration-ms="9487" started-at="2018-08-04T05:28:02Z" finished-at="2018-08-04T05:28:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="DeleteLead(java.lang.String)[pri:0, instance:week6.day2.testcases.TC004_DeleteLead@2ac273d3]" name="DeleteLead" duration-ms="62138" started-at="2018-08-04T05:28:11Z" data-provider="fetchData" finished-at="2018-08-04T05:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at wd.SeMethods.click(SeMethods.java:93)
+at week6.day2.pages.myLeadPage.ClickToDeleteLead(myLeadPage.java:52)
+at week6.day2.testcases.TC004_DeleteLead.DeleteLead(TC004_DeleteLead.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLead -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:week6.day2.testcases.TC004_DeleteLead@2ac273d3]" name="closeApp" is-config="true" duration-ms="2377" started-at="2018-08-04T05:29:13Z" finished-at="2018-08-04T05:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="stopSuite()[pri:0, instance:week6.day2.testcases.TC004_DeleteLead@2ac273d3]" name="stopSuite" is-config="true" duration-ms="672" started-at="2018-08-04T05:29:16Z" finished-at="2018-08-04T05:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopSuite -->
+      </class> <!-- week6.day2.testcases.TC004_DeleteLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
